@@ -5,6 +5,7 @@ shinyUI(fluidPage(
     
     # Application title
     titlePanel("Your chances of surviving the Titanic disaster"),
+    a("Click here for the documentation", href="http://rpubs.com/irek978/TitanicSurvival", target="_blank"),
     p("Insert the requested values and discover which is your chance to survive at the Titanic disaster"),
     
     sidebarLayout(
